@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Lc4WV29V8En5KBH9jRLV">
-    <mxGraphModel dx="1358" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="1664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,7 +64,7 @@
         <mxCell id="GF-97SAAtC-2BZE8eqbo-25" edge="1" parent="1" source="GF-97SAAtC-2BZE8eqbo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.109;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" target="GF-97SAAtC-2BZE8eqbo-11" value="HTTP">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GF-97SAAtC-2BZE8eqbo-30" edge="1" parent="1" source="GF-97SAAtC-2BZE8eqbo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="Follower-list for feed">
+        <mxCell id="GF-97SAAtC-2BZE8eqbo-30" edge="1" parent="1" source="GF-97SAAtC-2BZE8eqbo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.476;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;" target="GF-97SAAtC-2BZE8eqbo-16" value="Follower-list for feed">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440.2857142857142" y="260" as="targetPoint" />
           </mxGeometry>
