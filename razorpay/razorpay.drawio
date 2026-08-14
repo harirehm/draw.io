@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="JELRgKyg5w4kL5Uf3xvs">
-    <mxGraphModel dx="741" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="764" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
         <mxCell id="u0OeuLLakeEDvtwHqKbG-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Store orderId &amp;amp; apiKey" vertex="1">
           <mxGeometry height="30" width="120" x="415" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="u0OeuLLakeEDvtwHqKbG-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Checkout&lt;div&gt;order&lt;/div&gt;" vertex="1">
+        <mxCell id="u0OeuLLakeEDvtwHqKbG-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Checkout/&lt;div&gt;order&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="336" y="292" as="geometry" />
         </mxCell>
         <mxCell id="u0OeuLLakeEDvtwHqKbG-26" edge="1" parent="1" source="u0OeuLLakeEDvtwHqKbG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u0OeuLLakeEDvtwHqKbG-25" value="Request bank to make payment">
