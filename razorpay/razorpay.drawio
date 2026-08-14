@@ -145,16 +145,16 @@
         <mxCell id="u0OeuLLakeEDvtwHqKbG-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="30" width="100" x="365" y="870" as="geometry" />
         </mxCell>
-        <mxCell id="u0OeuLLakeEDvtwHqKbG-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Light" vertex="1">
+        <mxCell id="u0OeuLLakeEDvtwHqKbG-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Low" vertex="1">
           <mxGeometry height="30" width="60" x="596" y="830" as="geometry" />
         </mxCell>
-        <mxCell id="u0OeuLLakeEDvtwHqKbG-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Medium" vertex="1">
+        <mxCell id="u0OeuLLakeEDvtwHqKbG-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Moderate" vertex="1">
           <mxGeometry height="30" width="60" x="595" y="870" as="geometry" />
         </mxCell>
-        <mxCell id="u0OeuLLakeEDvtwHqKbG-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Large" vertex="1">
+        <mxCell id="u0OeuLLakeEDvtwHqKbG-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="High" vertex="1">
           <mxGeometry height="30" width="60" x="596" y="910" as="geometry" />
         </mxCell>
-        <mxCell id="u0OeuLLakeEDvtwHqKbG-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Relatie scale" vertex="1">
+        <mxCell id="u0OeuLLakeEDvtwHqKbG-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Relative scale" vertex="1">
           <mxGeometry height="30" width="100" x="465" y="790" as="geometry" />
         </mxCell>
         <mxCell id="u0OeuLLakeEDvtwHqKbG-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Generate UPI QR" vertex="1">
@@ -166,7 +166,7 @@
             <mxPoint x="840" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u0OeuLLakeEDvtwHqKbG-58" edge="1" parent="1" source="u0OeuLLakeEDvtwHqKbG-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="A Daily Scheduler picks up last 24 hours payment and pushes them to Kafka topic">
+        <mxCell id="u0OeuLLakeEDvtwHqKbG-58" edge="1" parent="1" source="u0OeuLLakeEDvtwHqKbG-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="A Daily Scheduler picks up last 24 hours payment&lt;div&gt;and pushes them to Kafka topic&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="875" y="670" as="targetPoint" />
           </mxGeometry>
@@ -209,7 +209,7 @@
         <mxCell id="u0OeuLLakeEDvtwHqKbG-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Failure Reporter" vertex="1">
           <mxGeometry height="40" width="110" x="290" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="u0OeuLLakeEDvtwHqKbG-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Send out emails to merchants about the issue and alternate roleout options/ update payment setting" vertex="1">
+        <mxCell id="u0OeuLLakeEDvtwHqKbG-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Send out emails to merchants about the issue and alternate roleout options/ update payment options" vertex="1">
           <mxGeometry height="30" width="191" x="244" y="640" as="geometry" />
         </mxCell>
         <mxCell id="u0OeuLLakeEDvtwHqKbG-83" edge="1" parent="1" source="u0OeuLLakeEDvtwHqKbG-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.078;entryDx=0;entryDy=0;entryPerimeter=0;" target="u0OeuLLakeEDvtwHqKbG-5" value="">
@@ -235,7 +235,7 @@
         <mxCell id="u0OeuLLakeEDvtwHqKbG-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
           <mxGeometry height="30" width="100" x="364" y="950" as="geometry" />
         </mxCell>
-        <mxCell id="u0OeuLLakeEDvtwHqKbG-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ultra" vertex="1">
+        <mxCell id="u0OeuLLakeEDvtwHqKbG-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Extreme" vertex="1">
           <mxGeometry height="30" width="60" x="595" y="950" as="geometry" />
         </mxCell>
       </root>
