@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="oY20M6a5ZC2GQbiYDNKX">
-    <mxGraphModel dx="499" dy="288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,17 +53,48 @@
         <mxCell id="FQrMOFj-XkD0umDBze92-15" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="SQL" vertex="1">
           <mxGeometry height="50" width="40" x="670" y="215" as="geometry" />
         </mxCell>
-        <mxCell id="FQrMOFj-XkD0umDBze92-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Bookings" vertex="1">
+        <mxCell id="FQrMOFj-XkD0umDBze92-28" edge="1" parent="1" source="FQrMOFj-XkD0umDBze92-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="FQrMOFj-XkD0umDBze92-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="booking-availability" vertex="1">
           <mxGeometry height="30" width="100" x="580" y="320" as="geometry" />
         </mxCell>
         <mxCell id="FQrMOFj-XkD0umDBze92-18" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="SQL" vertex="1">
-          <mxGeometry height="50" width="40" x="670" y="330" as="geometry" />
+          <mxGeometry height="50" width="40" x="670" y="440" as="geometry" />
         </mxCell>
         <mxCell id="FQrMOFj-XkD0umDBze92-19" edge="1" parent="1" source="FQrMOFj-XkD0umDBze92-16" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="FQrMOFj-XkD0umDBze92-12" value="HTTP">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="660" y="310" as="sourcePoint" />
             <mxPoint x="710" y="260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-27" edge="1" parent="1" source="FQrMOFj-XkD0umDBze92-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FQrMOFj-XkD0umDBze92-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Booking" vertex="1">
+          <mxGeometry height="30" width="100" x="580" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-22" edge="1" parent="1" source="FQrMOFj-XkD0umDBze92-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.015;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" target="FQrMOFj-XkD0umDBze92-21" value="HTTP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="448.07" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-23" edge="1" parent="1" source="FQrMOFj-XkD0umDBze92-21" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.507;exitY=-0.077;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" target="FQrMOFj-XkD0umDBze92-16" value="HTTP">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="350" as="sourcePoint" />
+            <mxPoint x="660" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-24" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Redis" vertex="1">
+          <mxGeometry height="80" width="80" x="759" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Store table_holdings info in redis cache as well.&lt;br&gt;TTL = 2 mins" vertex="1">
+          <mxGeometry height="50" width="150" x="720" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Highly concurrent service" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="470" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
