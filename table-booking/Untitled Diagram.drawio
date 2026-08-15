@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="oY20M6a5ZC2GQbiYDNKX">
-    <mxGraphModel dx="788" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1880" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FQrMOFj-XkD0umDBze92-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="275" width="190" x="920" y="170" as="geometry" />
+        </mxCell>
         <mxCell id="FQrMOFj-XkD0umDBze92-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="20" width="70" x="75" y="370" as="geometry" />
         </mxCell>
@@ -71,6 +74,16 @@
         <mxCell id="FQrMOFj-XkD0umDBze92-27" edge="1" parent="1" source="FQrMOFj-XkD0umDBze92-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FQrMOFj-XkD0umDBze92-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-36" edge="1" parent="1" source="FQrMOFj-XkD0umDBze92-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FQrMOFj-XkD0umDBze92-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="430.03" />
+              <mxPoint x="730" y="490.03" />
+              <mxPoint x="880" y="490.03" />
+              <mxPoint x="880" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FQrMOFj-XkD0umDBze92-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Booking" vertex="1">
           <mxGeometry height="30" width="100" x="580" y="430" as="geometry" />
         </mxCell>
@@ -95,6 +108,41 @@
         </mxCell>
         <mxCell id="FQrMOFj-XkD0umDBze92-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Highly concurrent service" vertex="1">
           <mxGeometry height="30" width="60" x="590" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-35" edge="1" parent="1" source="FQrMOFj-XkD0umDBze92-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FQrMOFj-XkD0umDBze92-34" value="Kafka">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Scheduler" vertex="1">
+          <mxGeometry height="30" width="100" x="960" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-38" edge="1" parent="1" source="FQrMOFj-XkD0umDBze92-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FQrMOFj-XkD0umDBze92-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="580" />
+              <mxPoint x="55" y="580" />
+              <mxPoint x="55" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Email Restaurant/ customer about upcoming booking" vertex="1">
+          <mxGeometry height="70" width="100" x="960" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-37" edge="1" parent="1" source="FQrMOFj-XkD0umDBze92-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.362;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" target="FQrMOFj-XkD0umDBze92-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="580" />
+              <mxPoint x="101.73" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Notification Module" vertex="1">
+          <mxGeometry height="30" width="60" x="980" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-41" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Websockets?&lt;/h1&gt;&lt;p&gt;Should we implement websockets for realtime seat availability? If two customer viewing the last seat and one books while the other waits. Eventually when other customer books, booking fails. This is currently acceptable as modern booking apps work this way and customer tolerates. To give a great experience to customer, websockets could be introduced here, but handling millions of websockets brings significant engineering challenges.&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;I will not implement this right away. Will keep this in mind and see how the application shapes&lt;/p&gt;" vertex="1">
+          <mxGeometry height="340" width="180" x="1180" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrMOFj-XkD0umDBze92-42" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Redis &amp;amp; Table_holding sql table?&lt;/h1&gt;&lt;p&gt;This has a smaller advantage, but having this in milestone1 becuase the engineering difficulty is relatively low and worth it. User 1 clicks book, and that transaction takes 1s to complete and user 2 opens bookings page within that 1s time window. Now without redis, user 2 sees slot open, while with redis, user 2 see slot unavailable.&amp;nbsp;&lt;/p&gt;&lt;p&gt;When is this mandatory? If booking involves external service interaction or payment integration.&lt;/p&gt;&lt;p&gt;When is it good to have? no external dependency but scale is huge (current state).&lt;/p&gt;&lt;p&gt;When is it not necessary? scale is low, latency is low and external service interaction does not exist.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;We are at good to have state and if we introduce payments tomorrow, then this is a must to have, so much easier to extend&lt;/p&gt;" vertex="1">
+          <mxGeometry height="550" width="190" x="1390" y="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
