@@ -37,6 +37,9 @@
         <mxCell id="-KHVz1RLJW6bMFZg54gf-22" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-KHVz1RLJW6bMFZg54gf-21" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-KHVz1RLJW6bMFZg54gf-26" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-KHVz1RLJW6bMFZg54gf-25" value="Kafka">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-KHVz1RLJW6bMFZg54gf-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Place order" vertex="1">
           <mxGeometry height="40" width="120" x="550" y="130" as="geometry" />
         </mxCell>
@@ -74,6 +77,26 @@
         </mxCell>
         <mxCell id="-KHVz1RLJW6bMFZg54gf-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Inventory Validator" vertex="1">
           <mxGeometry height="40" width="120" x="550" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-KHVz1RLJW6bMFZg54gf-27" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-KHVz1RLJW6bMFZg54gf-4" value="SSE IN-App&amp;nbsp;&lt;div&gt;notification for Kitche&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="480" />
+              <mxPoint x="110.04" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-KHVz1RLJW6bMFZg54gf-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Notification Module" vertex="1">
+          <mxGeometry height="40" width="120" x="345" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-KHVz1RLJW6bMFZg54gf-28" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Email/ SMS Notification" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="-KHVz1RLJW6bMFZg54gf-29" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.466;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="-KHVz1RLJW6bMFZg54gf-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-KHVz1RLJW6bMFZg54gf-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Notifies order placement success to customers for online orders" vertex="1">
+          <mxGeometry height="30" width="125" x="425" y="450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
