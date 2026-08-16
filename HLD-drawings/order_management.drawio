@@ -31,7 +31,7 @@
         <mxCell id="-KHVz1RLJW6bMFZg54gf-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Restaurant/ inventor management service&lt;br&gt;(external)" vertex="1">
           <mxGeometry height="80" width="90" x="360" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="-KHVz1RLJW6bMFZg54gf-17" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="-KHVz1RLJW6bMFZg54gf-13" value="idempotent key returned back for payment">
+        <mxCell id="-KHVz1RLJW6bMFZg54gf-17" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="-KHVz1RLJW6bMFZg54gf-13" value="idempotent key crated and&amp;nbsp;&lt;div&gt;returned from payment&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-KHVz1RLJW6bMFZg54gf-22" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-KHVz1RLJW6bMFZg54gf-21" value="">
