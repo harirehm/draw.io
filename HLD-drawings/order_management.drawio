@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="wacmHsYSD5AkM9hi0lsz">
-    <mxGraphModel dx="1164" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1222" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,6 +21,11 @@
         </mxCell>
         <mxCell id="-KHVz1RLJW6bMFZg54gf-8" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.993;exitY=0.062;exitDx=0;exitDy=0;exitPerimeter=0;" target="-KHVz1RLJW6bMFZg54gf-7" value="">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E2eC2SDR106Zc651mkjr-1" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-KHVz1RLJW6bMFZg54gf-13" value="/verify-payments">
+          <mxGeometry relative="1" x="-0.4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-KHVz1RLJW6bMFZg54gf-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API Gateway&lt;div&gt;rete-limiter&lt;/div&gt;&lt;div&gt;security&lt;/div&gt;" vertex="1">
           <mxGeometry height="300" width="120" x="170" y="110" as="geometry" />
@@ -85,7 +90,7 @@
         <mxCell id="-KHVz1RLJW6bMFZg54gf-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Inventory Validator" vertex="1">
           <mxGeometry height="40" width="120" x="550" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="-KHVz1RLJW6bMFZg54gf-27" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-KHVz1RLJW6bMFZg54gf-4" value="SSE IN-App&amp;nbsp;&lt;div&gt;notification for Kitche&lt;/div&gt;">
+        <mxCell id="-KHVz1RLJW6bMFZg54gf-27" edge="1" parent="1" source="-KHVz1RLJW6bMFZg54gf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-KHVz1RLJW6bMFZg54gf-4" value="SSE IN-App&amp;nbsp;&lt;div&gt;notification for Kitchen&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="380" y="370.05" />
